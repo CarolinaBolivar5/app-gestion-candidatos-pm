@@ -1,4 +1,5 @@
-import App from'../App'
+
+import App from '../App'
 import Login from '../pages/Login'
 import Register from '../pages/Register'
 import Dashboard from '../pages/Dashboard'
@@ -13,11 +14,12 @@ export let routerApp = [
         element: <Login />
     },
     {
-        path:"/register",
+
+        path: "/register",
         element: <Register />
     },
     {
-        path:"/dashboard",
+        path: "/dashboard",
         element: <Dashboard />
     }
 ]
